@@ -51,22 +51,22 @@ it('Should yield "NaN" if invalid number is provided', () => {
   // Arrange
   // create an array of numeric string values where one of the values is 'invalid'
 
-  //let strArr = ['55','678','K']
-  //    const numArr = strArr.map(str => {
-  //      return Number(str);
-    //  });
+  let strArr = ['55','678','K']
+      const numArr = strArr.map(str => {
+        return Number(str);
+      });
 
   // Act
   // call the add function with the array
 
-  //let nAnswer = add(numArr)
+  let nAnswer = add(numArr)
 
   // Assert
 
-  //nAnswer = NaN
+  nAnswer = NaN
 
   // use the expect function to assert that the result is equal to NaN, use toBeNaN function
 
- // expect(NaN).toBeNaN()
+ expect(NaN).toBeNaN()
 
 });
